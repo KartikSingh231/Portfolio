@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portffolio</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="fix_layout.css">
+</head>
+
+<body>
+
+    <!--Sidebar-->
+    <div class="sidebar">
+
+        <!-- Top Part -->
+        <div class="top">
+
+            <div class="profile">
+
+                <img src="my image.jpg">
+
+                <h2>Kartik Singh</h2>
+
+                <p>Frontend Developer</p>
+
+            </div>
+
+            <div class="menu">
+
+                <a href="#home">🏠 Home</a>
+
+                <a href="#about">👤 About</a>
+
+                <a href="#skills">💻 Skills</a>
+
+                <a href="#contact">📞 Contact</a>
+
+            </div>
+
+        </div>
+
+        <div class="theme-toggle">
+
+            <button id="themeBtn">
+
+                🌙 Dark Mode
+
+            </button>
+
+        </div>
+
+        <!-- Bottom Part -->
+
+        <div class="admin">
+
+            <h3>Admin Login</h3>
+
+            <input type="text" id="username" placeholder="Username">
+
+            <input type="password" id="password" placeholder="Password">
+
+            <button id="loginBtn">Login</button>
+
+            <p id="message"></p>
+
+        </div>
+
+    </div>
+
+    <!--main content-->
+
+    <div class="content">
+
+        <section id="home">
+
+            <div class="hero">
+
+                <div class="left">
+
+                    <h3>Hello! I'm</h3>
+
+                    <h1>Kartik Singh</h1>
+
+                    <h2>
+                        <span id="typing"></span>
+                    </h2>
+
+                    <p>
+                        I enjoy creating websites, learning cybersecurity,
+                        and building Power BI dashboards.
+                    </p>
+
+                    <div class="buttons">
+
+                        <button class="btn1">
+                            Hire Me
+                        </button>
+
+                        <button class="btn2">
+                            Download Resume
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="right">
+
+                    <img src="my image.jpg" alt="profile">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="about">
+
+            <div class="about-container">
+
+                <div class="about-image">
+
+                    <img src="pf photo.jpg" alt="Profile">
+
+                </div>
+
+                <div class="about-text">
+
+                    <h2>About Me</h2>
+
+                    <p>
+                        Hello! I'm <strong>Kartik Singh</strong>, a passionate
+                        Frontend Developer and Cybersecurity learner. I enjoy
+                        creating modern websites and solving real-world problems
+                        through technology.
+                    </p>
+
+                    <div class="info-grid">
+
+                        <div>
+                            <h4>Education</h4>
+                            <p>BCA / Graduation</p>
+                        </div>
+
+                        <div>
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+
+                        <div>
+                            <h4>Email</h4>
+                            <p>Kartiksingh004@email.com</p>
+                        </div>
+
+                        <div>
+                            <h4>Experience</h4>
+                            <p>Frontend Project</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="skills">
+
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="bar">
+
+                    <div class="progress html"></div>
+
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+
+                <div class="bar">
+
+                    <div class="progress css"></div>
+
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>JAVAScript</span>
+                    <span>70%</span>
+                </div>
+
+                <div class="bar">
+
+                    <div class="progress js"></div>
+
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>Power BI</span>
+                    <span>92%</span>
+                </div>
+
+                <div class="bar">
+
+                    <div class="progress powerbi"></div>
+
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <div class="skill-header">
+                    <span>Python</span>
+                    <span>60%</span>
+                </div>
+
+                <div class="bar">
+
+                    <div class="progress python"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <input type="text" placeholder="Full Name">
+
+                <input type="email" placeholder="Email">
+
+                <input type="text" placeholder="Subject">
+
+                <textarea placeholder="Your Message"></textarea>
+
+                <button>Send Message</button>
+
+            </form>
+
+        </section>
+
+    </div>
+
+    <script src="admin script.js"> </script>
+
+</body>
+
+</html>
